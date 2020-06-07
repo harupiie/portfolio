@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 18px;
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+    background-color: #5e3e3e;
+}
+
+main {
+    padding-top: 10%;
+}
+
+.titlecontainer, .profilecontainer, .workscontainer, .skillscontainer {
+    width: 100%;
+    /* 背景画像をディスプレイの描画領域全体に広げる */
+    padding: 5% 0;
+    background-color: transparent;
+    background-size: cover;
+}
+
+.titlecontainer {
+    height: 100vh;
+    background-image: url("../images/logo_back.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* 背景画像をディスプレイの描画領域全体に広げる */
+}
+
+.profilecontainer, .workscontainer, .skillscontainer {
+    min-height: 100vh;
+}
+
+.main_description {
+    min-height: 90vh;
+    padding: 5% 8%;
+    border-radius: 10px;
+    background-color: #e2e2e2;
+}
+
+.titlecontainer h1, .titlecontainer h2, .titlecontainer a {
+    display: block;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color: #fff;
+}
+
+.titlecontainer h1 {
+    font-size: 5em;
+    font-family: 'Secular One', sans-serif;
+}
+
+.titlecontainer h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.titlecontainer a {
+    width: 30%;
+    margin: 5% auto;
+}
+
+.profilecontainer dl {
+    font-size: 90%;
+}
+
+.workscontainer dl {
+    font-size: 70%;
+}
+
+.main_description p {
+    margin-bottom: 5%;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ccc;
+}
+
+.skills {
+    font-size: 80%;
+}
+
+.skills span {
+    display: block;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 1px 0;
+}
+
+.skills label {
+    display: block;
+    border-bottom: solid 1px #696969;
+    padding: 5px 0;
+    margin: 3px 0;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+}
+
+.filter {
+    background-color: #000;
+}
+
+.filter p {
+    font-size: 70%;
+}
+
+.filtered {
+    display: block;
+    opacity: .7;
+}
+
+footer {
+    font-size: 75%;
+    padding: 0.5%;
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+}
